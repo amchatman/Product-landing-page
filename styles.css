@@ -4,8 +4,9 @@
 }
 #header{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
+    margin-top:10px;
 }
 #nav-bar li{
     display:inline;
@@ -14,7 +15,20 @@
 .logo-container{
     display:flex;
     align-items:center;
+    margin-left:60px;
 }
 .nav-link{
     text-decoration:none;
+    color:#202020;
+    font-weight:600;
+    margin-left:20px;
+    margin-right:20px;
+    padding:20px;
+}
+#email{
+    width:275px;
+    padding:5px;
+}
+#hero{
+    text-align:center;
 }
