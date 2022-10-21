@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#nav-bar li{
+    display:inline;
+    list-style:none;
+}
+.logo-container{
+    display:flex;
+    align-items:center;
+}
+.nav-link{
+    text-decoration:none;
+}
